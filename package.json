@@ -5,7 +5,7 @@
   "description": "Datasource => vector tiles bridge backend for tilelive",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/tilelive-bridge.git"
+    "url": "git://github.com/steve9164/tilelive-bridge.git"
   },
   "licenses": [
     {

@@ -279,7 +279,7 @@ Bridge.getVector = function(source, map, z, x, y, callback) {
         }
         headers['x-tilelive-contains-data'] = vtile.painted();
         if (vtile.empty()) {
-            return callback(new Error('Tile does not exist'), null, headers);
+            return callback(err, new Buffer(0), headers);
         }
         vtile.getData({compression:'gzip'}, function(err, pbfz) {
             if (err) return callback(err);
